@@ -62,7 +62,7 @@ Table events：
 
 
 2， 复杂表格 [传送门](components/table/table.js)
-有过滤，排序，分页，导出和自定义操作功能。
+有过滤，排序，分页，导出和自定义操作功能，以及行内编辑（支持文本，日期，下拉，引用等组件）。
 API：
 Table props：  
 | 属性                | 说明             | 类型      | 默认值   |
@@ -77,14 +77,11 @@ Table props：
 | pagination        | 分页信息配置         | Object  | \{\}  |
 | ascOptions        | 排序配置           | Object  | \{\}  |
 
-
-Table events：  
-comming soon
 #### 链
 
-1，基本链
+1，基本链  [传送门](components/chain-input/chain-input)
 comming soon
-2，带有枚举选择的链
+2，带有枚举选择的链 [传送门](components/chain-input/chain-input-with-enum)
 comming soon
 
 
