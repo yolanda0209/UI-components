@@ -39,7 +39,7 @@ new Vue({
 #### 表格
 概述：主要用于展示大量结构化数据，支持过滤，排序，分页，导出和自定义操作。
 
-1， 基本表格 [传送门](components/table/simple-table.vue)
+1， 基本表格 [传送门](components/table/simple-table.vue)    
 有分页和数据展示功能。
 
 API：  
@@ -82,9 +82,9 @@ Table props：
 
 #### 链   
 
-1，基本链  [传送门](components/chain-input/chain-input)   
+1，基本链  [传送门](components/chain-input/chain-input.vue)   
 comming soon  
-2，带有枚举选择的链 [传送门](components/chain-input/chain-input-with-enum)  
+2，带有枚举选择的链 [传送门](components/chain-input/chain-input-with-enum.vue)  
 comming soon  
 
 
