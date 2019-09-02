@@ -72,9 +72,9 @@ Table props：
 |-------------------|----------------|---------|-------|
 | tableColumns      | 表格列的配置描述       | Array   | \[\]  |
 | tableData         | 显示的结构化数据       | Array   | \[\]  |
-| showCheckbox      | 是否显示复选框        | Boolean | TRUE  |
-| highlightRow      | 是否支持高亮选中的行，即单选 | Boolean | FALSE |
-| filtersHidden     | 是否隐藏搜索条件       | Boolean | FALSE |
+| showCheckbox      | 是否显示复选框        | Boolean | true  |
+| highlightRow      | 是否支持高亮选中的行，即单选 | Boolean | false |
+| filtersHidden     | 是否隐藏搜索条件       | Boolean | false |
 | tableOuterActions | 表格外部功能区配置      | Array   | \[\]  |
 | tableInnerActions | 表格内部功能区配置      | Array   | \[\]  |
 | pagination        | 分页信息配置         | Object  | \{\}  |
