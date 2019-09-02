@@ -42,17 +42,19 @@ new Vue({
 1， 基本表格 [传送门](components/table/simple-table.vue)
 有分页和数据展示功能。
 
-API：
-Table props：  
-| 属性              | 说明         | 类型      | 默认值                                                                               |
-|-----------------|------------|---------|-----------------------------------------------------------------------------------|
-| data            | 显示的结构化数据   | Array   | ```[]```                                                                              |
-| columns         | 表格列的配置描述   | Array   | ```[]```                                                                             |
-| page            | 分页所需属性配置   | Object  | ```{           currentPage: 1,           pageSize: 5,           total: 0         ```} |
-| pageSizeOptions | 页面size可选配置 | Array   | ```[5, 10, 20]```                                                                     |
-| loading         | 表格是否加载中    | Boolean | false                                                                             |
+API：  
+Table props：    
 
-Table events：  
+| 属性              | 说明         | 类型      | 默认值                                                                          |
+|-----------------|------------|---------|------------------------------------------------------------------------------|
+| data            | 显示的结构化数据   | Array   | \[\]                                                                         |
+| columns         | 表格列的配置描述   | Array   | \[\]                                                                         |
+| page            | 分页所需属性配置   | Object  | \{        currentPage: 1,         pageSize: 5,           total: 0         \} |
+| pageSizeOptions | 页面size可选配置 | Array   | \[5, 10, 20\]                                                                |
+| loading         | 表格是否加载中    | Boolean | false                                                                        |
+
+
+Table events：    
 
 | 事件名              | 说明                                          | 返回值        |
 |------------------|---------------------------------------------|------------|
@@ -61,10 +63,11 @@ Table events：
 | onRowClick       | 单击某一行时触发                                    | 当前行的数据     |
 
 
-2， 复杂表格 [传送门](components/table/table.js)
-有过滤，排序，分页，导出和自定义操作功能，以及行内编辑（支持文本，日期，下拉，引用等组件）。
-API：
-Table props：  
+2， 复杂表格 [传送门](components/table/table.js)   
+有过滤，排序，分页，导出和自定义操作功能，以及行内编辑（支持文本，日期，下拉，引用等组件）。  
+API：  
+Table props：    
+
 | 属性                | 说明             | 类型      | 默认值   |
 |-------------------|----------------|---------|-------|
 | tableColumns      | 表格列的配置描述       | Array   | \[\]  |
@@ -77,11 +80,11 @@ Table props：
 | pagination        | 分页信息配置         | Object  | \{\}  |
 | ascOptions        | 排序配置           | Object  | \{\}  |
 
-#### 链
+#### 链   
 
-1，基本链  [传送门](components/chain-input/chain-input)
-comming soon
-2，带有枚举选择的链 [传送门](components/chain-input/chain-input-with-enum)
-comming soon
+1，基本链  [传送门](components/chain-input/chain-input)   
+comming soon  
+2，带有枚举选择的链 [传送门](components/chain-input/chain-input-with-enum)  
+comming soon  
 
 
