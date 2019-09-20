@@ -39,6 +39,8 @@ new Vue({
 #### 表格
 概述：主要用于展示大量结构化数据，支持过滤，排序，分页，导出和自定义操作。
 
+![Table](https://user-images.githubusercontent.com/40050306/65229019-1af01200-dafe-11e9-9da3-3c0b08117c29.gif)
+
 1， 基本表格 [传送门](components/table/simple-table.vue)    
 有分页和数据展示功能。
 
