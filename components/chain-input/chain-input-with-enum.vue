@@ -34,7 +34,7 @@
   </Row>
 </template>
 <script>
-import AttrInput from "./attr-input";
+import AttrInput from "./chain-input.vue";
 export default {
   components: {
     AttrInput
