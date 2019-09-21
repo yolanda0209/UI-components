@@ -91,7 +91,7 @@ Table props：
 API:  
 chain input props:
 
-```JSON
+```
     value: {
       required: false
     },
@@ -136,7 +136,7 @@ chain input props:
 API:  
 chain input props:
 
-```JSON
+```
     allCiTypes: { required: true },
     allCodes: { required: true },
     rootCiType: { required: true },
