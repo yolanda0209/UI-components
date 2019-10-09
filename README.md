@@ -1,4 +1,4 @@
-# wecube-portal-components
+# WeCube Portal UI Components
 
 ## 引言
 
